@@ -1,0 +1,97 @@
+.import{
+    width:100px;height:100px;background:transparent;background:rgba(0,0,0,0.5);border-radius:8px;position: fixed;margin:auto;left:0; right:0; top:0; bottom:0;z-index: 1;
+    display: none; 
+}
+.import_div{
+    color:#a6d174;
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    height: 150px;
+    background-color: #ebf5e0;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-color: #9ccc65;
+    display: none; 
+}
+.import_div .close {
+    font-size: 15px;
+    padding: 1rem;
+}
+.import_div .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+}
+
+.am-cf>span{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.am-cf:before, .am-cf:after {
+    content: " ";
+    display: table;
+}
+.am-cf:after {
+    clear: both;
+}
+.am-fr {
+    float: right;
+}
+.am-pagination {
+    position: relative;
+}
+.am-pagination {
+    padding-left: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+}
+.am-pagination>ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.am-pagination:after {
+    clear: both;
+}
+.am-pagination:before, .am-pagination:after {
+    content: " ";
+    display: table;
+}
+.am-pagination>li {
+    display: inline-block;
+}
+.am-pagination>.am-active>a, .am-pagination>.am-active>span, .am-pagination>.am-active>a:hover, .am-pagination>.am-active>span:hover, .am-pagination>.am-active>a:focus, .am-pagination>.am-active>span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+    cursor: default;
+}
+.am-pagination>li>a, .am-pagination>li>span {
+    position: relative;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.am-pagination>li>a:hover, .am-pagination>li>a:focus {
+    color: #095f8a;
+}
+.am-pagination>li>a:active, .am-pagination>li>a:hover {
+    outline: 0;
+}
